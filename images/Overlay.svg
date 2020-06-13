@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Overlay);
+      }
+
+      .cls-2, .cls-5, .cls-9 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #000;
+      }
+
+      .cls-2, .cls-5 {
+        stroke-linecap: round;
+        stroke-width: 4px;
+      }
+
+      .cls-3 {
+        stroke: #707070;
+      }
+
+      .cls-4 {
+        opacity: 0;
+      }
+
+      .cls-5 {
+        stroke: #fff;
+      }
+
+      .cls-10, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        font-size: 65px;
+        font-family: Gadugi-Bold, Gadugi;
+        font-weight: 700;
+      }
+
+      .cls-7 {
+        fill: #7d7c7c;
+        font-size: 25px;
+        font-family: Gadugi;
+      }
+
+      .cls-8 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-Overlay">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Overlay" class="cls-1">
+    <rect class="cls-10" width="1920" height="1080"/>
+    <g id="Menu" transform="translate(1549 17)">
+      <line id="Line_1" data-name="Line 1" class="cls-2" x2="44" transform="translate(225.5 52.5)"/>
+      <line id="Line_2" data-name="Line 2" class="cls-2" x2="44" transform="translate(225.5 65.015)"/>
+      <line id="Line_3" data-name="Line 3" class="cls-2" x2="44" transform="translate(225.5 77.53)"/>
+    </g>
+    <g id="Overlay-2" data-name="Overlay">
+      <g id="Overlay-3" data-name="Overlay" class="cls-3">
+        <rect class="cls-8" width="1920" height="1080"/>
+        <rect class="cls-9" x="0.5" y="0.5" width="1919" height="1079"/>
+      </g>
+      <g id="Close" class="cls-4" transform="translate(52)">
+        <line id="Line_4" data-name="Line 4" class="cls-5" x1="25" y2="25" transform="translate(1732.5 69.5)"/>
+        <line id="Line_5" data-name="Line 5" class="cls-5" x2="25" y2="25" transform="translate(1732.5 69.5)"/>
+      </g>
+      <g id="menu_1" data-name="menu 1" class="cls-4" transform="translate(0 119)">
+        <text id="home" class="cls-6" transform="translate(141 412)"><tspan x="0" y="0">home</tspan></text>
+        <text id="come_on_home_already" data-name="come on home already" class="cls-7" transform="translate(141 428)"><tspan x="0" y="27">come on home already</tspan></text>
+      </g>
+      <g id="menu_2" data-name="menu 2" class="cls-4" transform="translate(0 277)">
+        <text id="about_us" data-name="about us" class="cls-6" transform="translate(593 412)"><tspan x="0" y="0">about us</tspan></text>
+        <text id="come_on_home_already-2" data-name="come on home already" class="cls-7" transform="translate(593 428)"><tspan x="0" y="27">come on home already</tspan></text>
+      </g>
+      <g id="menu_3" data-name="menu 3" class="cls-4" transform="translate(0 435)">
+        <text id="services" class="cls-6" transform="translate(1045 412)"><tspan x="0" y="0">services</tspan></text>
+        <text id="come_on_home_already-3" data-name="come on home already" class="cls-7" transform="translate(1045 428)"><tspan x="0" y="27">come on home already</tspan></text>
+      </g>
+      <g id="menu_4" data-name="menu 4" class="cls-4" transform="translate(0 514)">
+        <text id="contact" class="cls-6" transform="translate(1497 412)"><tspan x="0" y="0">contact</tspan></text>
+        <text id="come_on_home_already-4" data-name="come on home already" class="cls-7" transform="translate(1497 428)"><tspan x="0" y="27">come on home already</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Home);
+      }
+
+      .cls-2 {
+        font-size: 40px;
+      }
+
+      .cls-2, .cls-4, .cls-9 {
+        font-family: Gadugi-Bold, Gadugi;
+        font-weight: 700;
+      }
+
+      .cls-13, .cls-3, .cls-8 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #000;
+      }
+
+      .cls-3, .cls-5, .cls-8 {
+        stroke-linecap: round;
+      }
+
+      .cls-3, .cls-8 {
+        stroke-width: 4px;
+      }
+
+      .cls-4 {
+        font-size: 137px;
+      }
+
+      .cls-5 {
+        fill: #635959;
+        stroke-linejoin: round;
+        opacity: 0.33;
+      }
+
+      .cls-6 {
+        stroke: #707070;
+      }
+
+      .cls-7 {
+        opacity: 0;
+      }
+
+      .cls-8 {
+        stroke: #fff;
+      }
+
+      .cls-14, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-9 {
+        font-size: 65px;
+      }
+
+      .cls-10 {
+        fill: #7d7c7c;
+        font-size: 25px;
+        font-family: Gadugi;
+      }
+
+      .cls-11, .cls-12 {
+        stroke: none;
+      }
+
+      .cls-12 {
+        fill: #707070;
+      }
+
+      .cls-13 {
+        clip-path: url(#clip);
+      }
+    </style>
+    <clipPath id="clip-Home">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+    <clipPath id="clip">
+      <use xlink:href="#fill"/>
+    </clipPath>
+  </defs>
+  <g id="Home" class="cls-1">
+    <rect class="cls-14" width="1920" height="1080"/>
+    <text id="mysite" class="cls-2" transform="translate(79 95)"><tspan x="0" y="0">mysite</tspan></text>
+    <g id="Menu" transform="translate(1549 17)">
+      <line id="Line_1" data-name="Line 1" class="cls-3" x2="44" transform="translate(225.5 52.5)"/>
+      <line id="Line_2" data-name="Line 2" class="cls-3" x2="44" transform="translate(225.5 65.015)"/>
+      <line id="Line_3" data-name="Line 3" class="cls-3" x2="44" transform="translate(225.5 77.53)"/>
+    </g>
+    <text id="this_is_fancy" data-name="this is fancy" class="cls-4" transform="translate(566 596)"><tspan x="0" y="0">this is fancy</tspan></text>
+    <g id="Path_1" data-name="Path 1" class="cls-5" transform="translate(566 454)">
+      <path class="cls-11" d="M 758.5 8.5 L 0.5 8.5 L 0.5 0.5 L 758.5 0.5 L 758.5 8.5 Z"/>
+      <path class="cls-12" d="M 1 1 L 1 8 L 758 8 L 758 1 L 1 1 M 0 0 L 759 0 L 759 9 L 0 9 L 0 0 Z"/>
+    </g>
+    <g id="Overlay" transform="translate(1920)">
+      <g id="Overlay-2" data-name="Overlay" class="cls-6">
+        <rect id="fill" class="cls-11" width="0.5" height="1080"/>
+        <path class="cls-13" d="M0,0.5h0.5M0.5,0v1080M0.5,1079.5h-0.5M0,1080v-1080"/>
+      </g>
+      <g id="Close" class="cls-7" transform="translate(52)">
+        <line id="Line_4" data-name="Line 4" class="cls-8" x1="25" y2="25" transform="translate(1732.5 69.5)"/>
+        <line id="Line_5" data-name="Line 5" class="cls-8" x2="25" y2="25" transform="translate(1732.5 69.5)"/>
+      </g>
+      <g id="menu_1" data-name="menu 1" class="cls-7">
+        <text id="home-2" data-name="home" class="cls-9" transform="translate(141 412)"><tspan x="0" y="0">home</tspan></text>
+        <text id="come_on_home_already" data-name="come on home already" class="cls-10" transform="translate(141 428)"><tspan x="0" y="27">come on home already</tspan></text>
+      </g>
+      <g id="menu_2" data-name="menu 2" class="cls-7">
+        <text id="about_us" data-name="about us" class="cls-9" transform="translate(593 412)"><tspan x="0" y="0">about us</tspan></text>
+        <text id="come_on_home_already-2" data-name="come on home already" class="cls-10" transform="translate(593 428)"><tspan x="0" y="27">come on home already</tspan></text>
+      </g>
+      <g id="menu_3" data-name="menu 3" class="cls-7">
+        <text id="services" class="cls-9" transform="translate(1045 412)"><tspan x="0" y="0">services</tspan></text>
+        <text id="come_on_home_already-3" data-name="come on home already" class="cls-10" transform="translate(1045 428)"><tspan x="0" y="27">come on home already</tspan></text>
+      </g>
+      <g id="menu_4" data-name="menu 4" class="cls-7">
+        <text id="contact" class="cls-9" transform="translate(1497 412)"><tspan x="0" y="0">contact</tspan></text>
+        <text id="come_on_home_already-4" data-name="come on home already" class="cls-10" transform="translate(1497 428)"><tspan x="0" y="27">come on home already</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
