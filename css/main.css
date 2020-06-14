@@ -84,15 +84,19 @@ section h1:hover {
   width: 10em;
   position: relative;
   margin: 0 auto;
+  text-align: center;
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
   -webkit-animation: fadeIn 1s ease-in-out;
           animation: fadeIn 1s ease-in-out;
+  border: 2px solid black;
 }
 
 .box:hover {
   height: 5em;
   width: 20em;
+  background-color: white;
+  border: 2px solid black;
 }
 
 nav {
