@@ -7,10 +7,39 @@ body, html {
     a{
         text-decoration: none !important;
     }
+    // top:2em;
+    animation: bodyFadeIn 0.7s ease-in-out forwards;
+
 }
+
+@keyframes bodyFadeIn{
+    from{
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+// .mainBody {
+//    left: 2em !important;
+//     animation: moveDown 0.4 ease-in-out forwards;
+// }
+
+// @keyframes moveBody{
+//     from{
+//         top: -2em;
+//     }
+//     to{
+//         top: 0em;
+//     }
+// }
+
 
 header{
     padding: 2em;
+    transition: all 0.5s ease-in-out;
+    background-color: rgba($color: #000000, $alpha: 0);
 
     .logo{
         color: black;
@@ -24,11 +53,16 @@ header{
     }
 }
 
+header:hover{
+    background-color: rgba($color: #000000, $alpha: 0.1);
+}
+
 section{
     padding: 4em;
     h1{
         font-size: 4em;
-        margin: 1em auto;
+        margin: 0 auto;
+        margin-top: 1em;
         width: 70%;
 
         &::before {
@@ -37,6 +71,46 @@ section{
             display: block;
         }
     }
+
+    h3{
+        font-size: 1em;
+        margin: 0 auto;
+        width: 70%;
+        // margin-left: 6em;
+    }
+}
+
+section h1:hover{
+    transition: ease-in-out;
+}
+
+.box{
+    background-color: black;
+    height: 10em;
+    width: 10em;
+    position: relative;
+    margin: 0 auto;
+    transition: 0.4s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
+}
+
+// @keyframes fadeIn {
+//     from{
+//         height: 10em;
+//         width: 10em;
+//         left: 0em;
+//     }
+//     to {
+//         height: 5em;
+//         width: 20em;
+//         left: 50%;
+//     }
+// }
+
+.box:hover{
+    // animation: fadeIn 0.4s ease-in-out;
+    height: 5em;
+    width: 20em;
 }
 
 nav {
@@ -44,7 +118,7 @@ nav {
     background-color: black;
     padding: 2em;
     width: calc(100% - 4em);
-    height: calc(100vh - 4em);
+    height: calc(100% - 4em);
     display: none;
     transform: scaleX(0);
     transform-origin: right;
@@ -134,5 +208,6 @@ nav {
         opacity: 1;
     }
 }
+
 
 

@@ -2,14 +2,37 @@
 body, html {
   font-family: 'Montserrat';
   margin: 0;
+  -webkit-animation: bodyFadeIn 0.7s ease-in-out forwards;
+          animation: bodyFadeIn 0.7s ease-in-out forwards;
 }
 
 body a, html a {
   text-decoration: none !important;
 }
 
+@-webkit-keyframes bodyFadeIn {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes bodyFadeIn {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
 header {
   padding: 2em;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 header .logo {
@@ -23,13 +46,18 @@ header .menu-btn {
   cursor: pointer;
 }
 
+header:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 section {
   padding: 4em;
 }
 
 section h1 {
   font-size: 4em;
-  margin: 1em auto;
+  margin: 0 auto;
+  margin-top: 1em;
   width: 70%;
 }
 
@@ -39,12 +67,40 @@ section h1::before {
   display: block;
 }
 
+section h3 {
+  font-size: 1em;
+  margin: 0 auto;
+  width: 70%;
+}
+
+section h1:hover {
+  -webkit-transition: ease-in-out;
+  transition: ease-in-out;
+}
+
+.box {
+  background-color: black;
+  height: 10em;
+  width: 10em;
+  position: relative;
+  margin: 0 auto;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  -webkit-animation: fadeIn 1s ease-in-out;
+          animation: fadeIn 1s ease-in-out;
+}
+
+.box:hover {
+  height: 5em;
+  width: 20em;
+}
+
 nav {
   position: absolute;
   background-color: black;
   padding: 2em;
   width: calc(100% - 4em);
-  height: calc(100vh - 4em);
+  height: calc(100% - 4em);
   display: none;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
